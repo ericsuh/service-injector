@@ -1,5 +1,5 @@
 {
-  "name": "service-registry",
+  "name": "service-injector",
   "version": "0.0.1",
   "license": "MIT",
   "description": "Service object registry and dependency injection framework",
@@ -9,7 +9,7 @@
     "test": "cross-env NODE_ENV=debug mocha --spec=\"./dist/**/*.test.js\"",
   },
   "type": "module",
-  "repository": "https://www.github.com/ericsuh/service-registry",
+  "repository": "https://www.github.com/ericsuh/service-injector",
   "author": "Eric Suh <eric@ericsuh.com> (https://www.ericsuh.com)",
   "main": "dist/index.js",
   "devDependencies": {
